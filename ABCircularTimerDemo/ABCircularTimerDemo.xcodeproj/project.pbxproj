@@ -13,7 +13,7 @@
 		C7843C3A1A89735D001C899C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7843C391A89735D001C899C /* Images.xcassets */; };
 		C7843C3D1A89735D001C899C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7843C3B1A89735D001C899C /* LaunchScreen.xib */; };
 		C7843C491A89735D001C899C /* ABCircularTimerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7843C481A89735D001C899C /* ABCircularTimerDemoTests.swift */; };
-		C7D6E9E91A8987CB00D43776 /* ABCircularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6E9E81A8987CB00D43776 /* ABCircularTimer.swift */; };
+		C7D6E9EB1A8AAB3900D43776 /* ABCircularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6E9EA1A8AAB3900D43776 /* ABCircularTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		C7843C421A89735D001C899C /* ABCircularTimerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABCircularTimerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7843C471A89735D001C899C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7843C481A89735D001C899C /* ABCircularTimerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABCircularTimerDemoTests.swift; sourceTree = "<group>"; };
-		C7D6E9E81A8987CB00D43776 /* ABCircularTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABCircularTimer.swift; sourceTree = "<group>"; };
+		C7D6E9EA1A8AAB3900D43776 /* ABCircularTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABCircularTimer.swift; path = ../ABCircularTimer/ABCircularTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		C7843C241A89735D001C899C = {
 			isa = PBXGroup;
 			children = (
-				C7D6E9E81A8987CB00D43776 /* ABCircularTimer.swift */,
+				C7D6E9EA1A8AAB3900D43776 /* ABCircularTimer.swift */,
 				C7843C2F1A89735D001C899C /* ABCircularTimerDemo */,
 				C7843C451A89735D001C899C /* ABCircularTimerDemoTests */,
 				C7843C2E1A89735D001C899C /* Products */,
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7843C351A89735D001C899C /* ViewController.swift in Sources */,
-				C7D6E9E91A8987CB00D43776 /* ABCircularTimer.swift in Sources */,
+				C7D6E9EB1A8AAB3900D43776 /* ABCircularTimer.swift in Sources */,
 				C7843C331A89735D001C899C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
